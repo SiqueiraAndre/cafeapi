@@ -1,13 +1,13 @@
 # CaféApi Library Test
 
-[![Maintainer](http://img.shields.io/badge/maintainer-@SiqueiraAndre-blue.svg?style=flat-square)](https://twitter.com/SiqueiraAndre)
-[![Source Code](http://img.shields.io/badge/source-SiqueiraAndre/cafeapi-blue.svg?style=flat-square)](https://github.com/SiqueiraAndre/cafeapi)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/SiqueiraAndre/cafeapi.svg?style=flat-square)](https://packagist.org/packages/SiqueiraAndre/cafeapi)
-[![Latest Version](https://img.shields.io/github/release/SiqueiraAndre/cafeapi.svg?style=flat-square)](https://github.com/SiqueiraAndre/cafeapi/releases)
+[![Maintainer](http://img.shields.io/badge/maintainer-@siqueiraandre-blue.svg?style=flat-square)](https://twitter.com/siqueiraandre)
+[![Source Code](http://img.shields.io/badge/source-siqueiraandre/cafeapi-blue.svg?style=flat-square)](https://github.com/siqueiraandre/cafeapi)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/siqueiraandre/cafeapi.svg?style=flat-square)](https://packagist.org/packages/siqueiraandre/cafeapi)
+[![Latest Version](https://img.shields.io/github/release/siqueiraandre/cafeapi.svg?style=flat-square)](https://github.com/siqueiraandre/cafeapi/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Build](https://img.shields.io/scrutinizer/build/g/SiqueiraAndre/cafeapi.svg?style=flat-square)](https://scrutinizer-ci.com/g/SiqueiraAndre/cafeapi)
-[![Quality Score](https://img.shields.io/scrutinizer/g/SiqueiraAndre/cafeapi.svg?style=flat-square)](https://scrutinizer-ci.com/g/SiqueiraAndre/cafeapi)
-[![Total Downloads](https://img.shields.io/packagist/dt/SiqueiraAndre/cafeapi.svg?style=flat-square)](https://packagist.org/packages/cSiqueiraAndre/cafeapi)
+[![Build](https://img.shields.io/scrutinizer/build/g/siqueiraandre/cafeapi.svg?style=flat-square)](https://scrutinizer-ci.com/g/siqueiraandre/cafeapi)
+[![Quality Score](https://img.shields.io/scrutinizer/g/siqueiraandre/cafeapi.svg?style=flat-square)](https://scrutinizer-ci.com/g/siqueiraandre/cafeapi)
+[![Total Downloads](https://img.shields.io/packagist/dt/siqueiraandre/cafeapi.svg?style=flat-square)](https://packagist.org/packages/csiqueiraandre/cafeapi)
 
 ###### CaféApi Library is a small set of classes developed in UpInside's Full Stack PHP Developer training for integration into the webservice of a SaaS platform developed in the course..
 
@@ -27,13 +27,13 @@ Você pode saber mais **[clicando aqui](https://www.upinside.com.br/fsphp)**.
 Uploader is available via Composer:
 
 ```bash
-"SiqueiraAndre/cafeapi": "^1.0"
+"siqueiraandre/cafeapi": "^1.0"
 ```
 
 or run
 
 ```bash
-composer require SiqueiraAndre/cafeapi
+composer require siqueiraandre/cafeapi
 ```
 
 ## Documentation
@@ -49,7 +49,7 @@ Para mais detalhes sobre como usar, veja uma pasta de exemplo no diretório do c
 
 require __DIR__ . "/../vendor/autoload.php";
 
-use SiqueiraAndre\CafeApi\Me;
+use siqueiraandre\CafeApi\Me;
 
 $me = new Me(
     "suaapi.url.com",
@@ -87,7 +87,7 @@ if ($user->error()) {
 
 require __DIR__ . "/../vendor/autoload.php";
 
-use SiqueiraAndre\CafeApi\Invoices;
+use siqueiraandre\CafeApi\Invoices;
 
 $invoices = new Invoices(
     "suaapi.url.com",
@@ -152,7 +152,7 @@ Você também conta com classes para os endpoints de carteiras e assinaturas, to
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/SiqueiraAndre/uploader/blob/master/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/siqueiraandre/uploader/blob/master/CONTRIBUTING.md) for details.
 
 ## Support
 
@@ -164,9 +164,9 @@ Thank you
 
 ## Credits
 
-- [André Siqueira](https://github.com/SiqueiraAndre) (Developer)
-- [All Contributors](https://github.com/SiqueiraAndre/cafeapi/contributors) (This Rock)
+- [André Siqueira](https://github.com/siqueiraandre) (Developer)
+- [All Contributors](https://github.com/siqueiraandre/cafeapi/contributors) (This Rock)
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/SiqueiraAndre/cafeapi/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/siqueiraandre/cafeapi/blob/master/LICENSE) for more information.
