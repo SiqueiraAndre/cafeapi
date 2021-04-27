@@ -165,7 +165,7 @@ Thank you
 ## Credits
 
 - [André Siqueira](https://github.com/SiqueiraAndre) (Developer)
-- [All Contributors](https://github.com/SiqueiraAndre/uploader/contributors) (This Rock)
+- [All Contributors](https://github.com/SiqueiraAndre/cafeapi/contributors) (This Rock)
 
 ## License
 
